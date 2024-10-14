@@ -59,8 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
+    <Compile Include="Assets\Scripts\NotebookManager.cs" />
+    <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Scripts\BackgroundScaler.cs" />
-    <Compile Include="Assets\Scripts\CameraAspectRatio.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
