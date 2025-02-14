@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "knowledgePoint": "Math",
+      "type": "choice",
+      "questionText": "What is 2 + 2?",
+      "options": [ "1", "2", "3", "4" ],
+      "correctAnswer": "4"
+    },
+    {
+      "id": 2,
+      "knowledgePoint": "Math",
+      "type": "judge",
+      "questionText": "Is 2 a prime number?",
+      "correctAnswer": "True"
+    },
+    {
+      "id": 3,
+      "knowledgePoint": "Science",
+      "type": "fill",
+      "questionText": "The chemical symbol for water is ____.",
+      "correctAnswer": "H2O"
+    }
+  ]
+}

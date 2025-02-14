@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\VoiceInput.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage_Selection.cs" />
+    <Compile Include="Assets\Scripts\CloseWindows.cs" />
     <Compile Include="Assets\Scripts\Speech.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage.cs" />
@@ -85,7 +86,11 @@
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DrowsinessHandler.cs" />
-    <Compile Include="Assets\Scripts\CloseWindows.cs" />
+    <Compile Include="Assets\Scripts\Question.cs" />
+    <Compile Include="Assets\Scripts\QuestionList.cs" />
+    <Compile Include="Assets\Scripts\QuestionBankLoader.cs" />
+    <Compile Include="Assets\Scripts\QuizManager.cs" />
+    <Compile Include="Assets\Scripts\QuizUIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\OpenCVForUnity\Plugins\WSA\x86\opencv_tracking4100.dll" />
