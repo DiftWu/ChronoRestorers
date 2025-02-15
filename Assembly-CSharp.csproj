@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\VoiceInput.cs" />
+    <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage_Selection.cs" />
     <Compile Include="Assets\Scripts\CloseWindows.cs" />
     <Compile Include="Assets\Scripts\Speech.cs" />
@@ -67,6 +68,8 @@
     <Compile Include="Assets\Resources\DDSystem\Script\DialogManager.cs" />
     <Compile Include="Assets\Scripts\EmotionDetection.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\Scripts\QuestionBankLoader.cs" />
+    <Compile Include="Assets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
     <Compile Include="Assets\Scripts\NotebookManager.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
@@ -74,7 +77,9 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Show_Dialog.cs" />
     <Compile Include="Assets\Resources\Starfield Skybox\Demo\Script\LookCamera.cs" />
+    <Compile Include="Assets\Scripts\QuizUIManager.cs" />
     <Compile Include="Assets\Resources\DDSystem\Script\EmotionDrawer.cs" />
+    <Compile Include="Assets\Scripts\QuestionList.cs" />
     <Compile Include="Assets\Scripts\HistorianSystem.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Transition.cs" />
     <Compile Include="Assets\Scripts\BackgroundScaler.cs" />
@@ -86,11 +91,7 @@
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DrowsinessHandler.cs" />
-    <Compile Include="Assets\Scripts\Question.cs" />
-    <Compile Include="Assets\Scripts\QuestionList.cs" />
-    <Compile Include="Assets\Scripts\QuestionBankLoader.cs" />
-    <Compile Include="Assets\Scripts\QuizManager.cs" />
-    <Compile Include="Assets\Scripts\QuizUIManager.cs" />
+    <Compile Include="Assets\Scripts\SetActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\OpenCVForUnity\Plugins\WSA\x86\opencv_tracking4100.dll" />

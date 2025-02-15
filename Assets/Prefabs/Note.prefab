@@ -83,7 +83,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!1 &2267680102942546088
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5500182170175855452, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 203.019
+      value: 126.2182
       objectReference: {fileID: 0}
     - target: {fileID: 5500182170175855453, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_Layer
