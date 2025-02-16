@@ -61,10 +61,10 @@
     <Compile Include="Assets\Scripts\VoiceInput.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage_Selection.cs" />
-    <Compile Include="Assets\Scripts\CloseWindows.cs" />
     <Compile Include="Assets\Scripts\Speech.cs" />
     <Compile Include="Assets\UnityPackages\JsonNetSample\JsonNetSample.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage.cs" />
+    <Compile Include="Assets\Scripts\SetActive.cs" />
     <Compile Include="Assets\Resources\DDSystem\Script\DialogManager.cs" />
     <Compile Include="Assets\Scripts\EmotionDetection.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
@@ -91,7 +91,7 @@
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DrowsinessHandler.cs" />
-    <Compile Include="Assets\Scripts\SetActive.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Raining.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\OpenCVForUnity\Plugins\WSA\x86\opencv_tracking4100.dll" />
