@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\VoiceInput.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Raining.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage_Selection.cs" />
     <Compile Include="Assets\Scripts\Speech.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Resources\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Scripts\QuizUIManager.cs" />
     <Compile Include="Assets\Resources\DDSystem\Script\EmotionDrawer.cs" />
+    <Compile Include="Assets\Scripts\QuestionAI.cs" />
     <Compile Include="Assets\Scripts\QuestionList.cs" />
     <Compile Include="Assets\Scripts\HistorianSystem.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Transition.cs" />
@@ -91,7 +93,6 @@
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DrowsinessHandler.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Raining.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\OpenCVForUnity\Plugins\WSA\x86\opencv_tracking4100.dll" />
