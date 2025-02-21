@@ -59,7 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\VoiceInput.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Raining.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\Tent.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\Raining.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Resources\DDSystem\Demo\Scripts\TestMessage_Selection.cs" />
     <Compile Include="Assets\Scripts\Speech.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Resources\DDSystem\Script\DialogBase.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\King.cs" />
     <Compile Include="Assets\Scripts\Show_Dialog.cs" />
     <Compile Include="Assets\Resources\Starfield Skybox\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Scripts\QuizUIManager.cs" />
@@ -83,13 +85,16 @@
     <Compile Include="Assets\Scripts\QuestionAI.cs" />
     <Compile Include="Assets\Scripts\QuestionList.cs" />
     <Compile Include="Assets\Scripts\HistorianSystem.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Transition.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter One\Transition.cs" />
     <Compile Include="Assets\Scripts\BackgroundScaler.cs" />
     <Compile Include="Assets\Resources\DDSystem\Script\Character.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\Farmland.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
-    <Compile Include="Assets\Scripts\Dialogue\Qin.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter One\Qin.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\Prison.cs" />
     <Compile Include="Assets\Scripts\CameraCapture.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Chapter Two\Souk.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\DrowsinessHandler.cs" />
