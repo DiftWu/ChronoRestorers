@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class QuizUIManager : MonoBehaviour
 {
@@ -179,6 +180,15 @@ public class QuizUIManager : MonoBehaviour
             choicePanel.SetActive(false);
             judgePanel.SetActive(false);
             fillPanel.SetActive(false);
+
+            // —”≥Ÿ“ª√Î∫Ûπÿ±’ questionText
+            StartCoroutine(HideQuestionTextAfterDelay(1f));
         }
+    }
+
+    IEnumerator HideQuestionTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        questionText.text = "";
     }
 }

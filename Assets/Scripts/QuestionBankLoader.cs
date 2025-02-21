@@ -5,6 +5,8 @@ public class QuestionBankLoader : MonoBehaviour
     [HideInInspector]
     public QuestionList questionList; // 加载后的题库数据
 
+    public TextAsset customJsonFile; // 自定义拖入的 JSON 文件
+
     void Awake()
     {
         LoadQuestionBank();
@@ -15,8 +17,7 @@ public class QuestionBankLoader : MonoBehaviour
     /// </summary>
     void LoadQuestionBank()
     {
-        // 从 Resources 加载 JSON 文件
-        TextAsset jsonTextFile = Resources.Load<TextAsset>("QuestionBank");
+        TextAsset jsonTextFile = customJsonFile != null ? customJsonFile : Resources.Load<TextAsset>("QuestionBank");
         if (jsonTextFile != null)
         {
             // 利用 JsonUtility 反序列化 JSON 数据到 QuestionList 对象中
