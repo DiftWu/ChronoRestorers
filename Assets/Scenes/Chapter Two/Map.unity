@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6668388564673214584, guid: 566044000b7466b40bab342f8513df2c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00035230935
+      value: 0.00016002162
       objectReference: {fileID: 0}
     - target: {fileID: 6668388565469628214, guid: 566044000b7466b40bab342f8513df2c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -224,6 +224,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+--- !u!114 &349894743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6630201143762247591, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+  m_PrefabInstance: {fileID: 349894742}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcdb4a571dfd98479c9c173880cb06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &683543544
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +526,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 349894743}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SavePlayerData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &769989383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +676,18 @@ MonoBehaviour:
       - m_Target: {fileID: 776368845}
         m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 349894743}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SavePlayerData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1053,6 +1088,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 349894743}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SavePlayerData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1321272813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,6 +1396,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1940731175}
         m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 349894743}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SavePlayerData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

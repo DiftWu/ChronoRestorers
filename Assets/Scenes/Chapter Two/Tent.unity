@@ -393,7 +393,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -410,7 +410,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.8534913
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -624,6 +624,18 @@ MonoBehaviour:
       - m_Target: {fileID: 602813007}
         m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: SwitchScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2687470923615377372}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SavePlayerData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1592,9 +1604,37 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6668388564107502572, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388564327461231, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388564327461231, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388564327461231, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388564327461231, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6668388564673214584, guid: 566044000b7466b40bab342f8513df2c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00031014235
+      value: 0.00046275224
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388565460761608, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388565460761608, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6668388565469628214, guid: 566044000b7466b40bab342f8513df2c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1602,6 +1642,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6668388565469628214, guid: 566044000b7466b40bab342f8513df2c, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388566129570976, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6668388566129570976, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7500788047174626479, guid: 566044000b7466b40bab342f8513df2c, type: 3}
@@ -1618,3 +1666,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+--- !u!114 &2687470923615377372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6630201143762247591, guid: 566044000b7466b40bab342f8513df2c, type: 3}
+  m_PrefabInstance: {fileID: 2687470923615377371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcdb4a571dfd98479c9c173880cb06e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

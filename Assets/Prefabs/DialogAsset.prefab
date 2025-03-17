@@ -38,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.3}
   m_AnchorMax: {x: 0, y: 0.3}
-  m_AnchoredPosition: {x: 20, y: 10}
+  m_AnchoredPosition: {x: 20, y: 90}
   m_SizeDelta: {x: 800, y: 60}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &4333785385588665909
@@ -410,7 +410,6 @@ MonoBehaviour:
   Printer: {fileID: 4094011681938070649}
   Characters: {fileID: 4094011683457312917}
   Printer_Text: {fileID: 4094011683009168357}
-  Name_Text: {fileID: 0}
   SEAudio: {fileID: 4094011683184477043}
   CallAudio: {fileID: 4094011683184477040}
   Delay: 0.05
