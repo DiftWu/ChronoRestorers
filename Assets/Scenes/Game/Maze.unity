@@ -233,8 +233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 44
   height: 20
-  wallPrefab: {fileID: 5400304750544690018, guid: 34fa163e5c09e61419e7ce535fd7b550, type: 3}
-  floorPrefab: {fileID: 2494788199209681111, guid: 2d8ad590d429abc40b63f8aa1d98456e, type: 3}
+  wallPrefab: {fileID: 6224926159741808576, guid: 34fa163e5c09e61419e7ce535fd7b550, type: 3}
+  floorPrefab: {fileID: 3201797212396426845, guid: 2d8ad590d429abc40b63f8aa1d98456e, type: 3}
   playerPrefab: {fileID: 3212053743628701957, guid: f077ae419023d60498ba133beed71290, type: 3}
   goalPrefab: {fileID: 2810071107529573280, guid: e640662998ce07f48aba85b1b8d62748, type: 3}
 --- !u!4 &143553845

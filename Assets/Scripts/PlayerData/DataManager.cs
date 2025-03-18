@@ -44,7 +44,7 @@ public class DataManager : MonoBehaviour
         else
         {
             Debug.LogWarning("未找到存档文件，使用默认数据");
-            playerData = new PlayerData { playerName = "默认玩家", playerScore = 0, distracted = 0, voiceuse = 0 };
+            playerData = new PlayerData { playerName = "默认玩家", playerScore = 0, distracted = 0, voiceuse = 0, ChapterOneFalse = 0, ChapterOneRight = 0, ChapterTwoFalse = 0, ChapterTwoRight = 0};
         }
     }
 }

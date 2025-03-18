@@ -135,8 +135,7 @@ MonoBehaviour:
     - Normal
     _sprite:
     - {fileID: 0}
-  ChatSE:
-  - {fileID: 8300000, guid: d892de2cb9eb07941bef7f5f4245c1b3, type: 3}
+  ChatSE: []
   CallSE: []
   Name: 
 --- !u!114 &8206358605457009696

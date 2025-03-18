@@ -1,10 +1,16 @@
-﻿using UnityEngine;
+﻿using System.IO;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MazeGameManager : MonoBehaviour
 {
     public static MazeGameManager Instance;
     public GameObject ob;
+
+    void Start()
+    {
+        ob.SetActive(false);
+    }
 
     private void Awake()
     {
