@@ -11,22 +11,14 @@ using System.Linq;
 
 public class VoiceInput : MonoBehaviour
 {
-    /// <summary>单例</summary>
     public static VoiceInput Instance;
 
-    /// <summary>固定不动</summary>
     private const string STTURL = "wss://iat-api.xfyun.cn/v2/iat";
-    /// <summary>固定不动</summary>
     private const string TTSURL = "wss://tts-api.xfyun.cn/v2/tts";
-    /// <summary>改成你自己的APPID!!!!!!</summary>
     private const string APPID = "d75296e3";
-    /// <summary>改成你自己的APISecret!!!!!!</summary>
     private const string APISecret = "ODljYzU3YzgyYmNjZDA1YjFiMGNlZmRi";
-    /// <summary>改成你自己的APIKey!!!!!!</summary>
     private const string APIKey = "98f60de36371ea80002053e0644598f7";
 
-
-    /// <summary>WebSocket</summary>
     private ClientWebSocket webSocket;
 
 
