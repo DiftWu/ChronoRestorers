@@ -152,6 +152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Note
       objectReference: {fileID: 0}
+    - target: {fileID: 655386087127210535, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3348040738119407830, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -306,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8773346880465676813, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0000025728789
+      value: 0.0000016761161
       objectReference: {fileID: 0}
     - target: {fileID: 8773346880662286038, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -350,9 +354,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8773346881658054378, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
       propertyPath: m_Size
-      value: 0.99997306
+      value: 0.9996565
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2665071275088589277, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0158eda0946519d46b8aba39d7babe2a, type: 3}
 --- !u!224 &1974472160333562788 stripped
 RectTransform:
