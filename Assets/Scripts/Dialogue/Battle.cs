@@ -11,6 +11,8 @@ public class Battle : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("isFirst after scene switch: " + PlayerPrefs.GetInt("isFirst"));
+
         var dialogTexts = new List<DialogData>();
         var dialogTexts_en = new List<DialogData>();
 

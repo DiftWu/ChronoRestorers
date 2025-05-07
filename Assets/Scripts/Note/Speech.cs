@@ -25,13 +25,6 @@ public class Speech : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         recordButtonText.text = " ";
-
-        // 测试用语音合成
-        SendTextToSpeechMsg("你好啊，我是讯飞语音助手！", auidoClip =>
-        {
-            audioSource.clip = auidoClip;
-            audioSource.Play();
-        });
     }
 
     #region 录音与识别
@@ -112,59 +105,6 @@ public class Speech : MonoBehaviour
 
     #endregion
 
-    #region 文本转语音（修正版）
-
-    public void SendTextToSpeechMsg(string text, Action<AudioClip> callback)
-    {
-        JObject jObject = new JObject
-        {
-            ["text"] = text,
-            ["voice"] = "xiaoyan"
-        };
-
-        StartCoroutine(SendTextToSpeechMsgCoroutine(jObject, callback));
-    }
-
-    private IEnumerator SendTextToSpeechMsgCoroutine(JObject message, Action<AudioClip> callback)
-    {
-        Task<string> resultJson = VoiceInput.Instance.TextToSpeech(message);
-        yield return new WaitUntil(() => resultJson.IsCompleted);
-
-        if (resultJson.Status == TaskStatus.RanToCompletion)
-        {
-            JObject obj = JObject.Parse(resultJson.Result);
-
-            string audioBase64 = obj["data"]?["audio"]?.ToString();
-
-            if (string.IsNullOrEmpty(audioBase64))
-            {
-                UnityEngine.Debug.LogError("讯飞返回的 audio 字段为空！");
-                callback.Invoke(null);
-                yield break;
-            }
-
-            float[] audioData = BytesToFloat(Convert.FromBase64String(audioBase64));
-
-            if (audioData.Length == 0)
-            {
-                UnityEngine.Debug.LogError($"讯飞文本转语音失败，错误信息：{resultJson.Result}");
-                callback.Invoke(null);
-            }
-            else
-            {
-                AudioClip audioClip = AudioClip.Create("SynthesizedAudio", audioData.Length, 1, 16000, false);
-                audioClip.SetData(audioData, 0);
-                callback.Invoke(audioClip);
-            }
-        }
-        else
-        {
-            UnityEngine.Debug.LogError($"讯飞文本转语音消息发送失败，错误信息：{resultJson.Result}");
-            callback.Invoke(null);
-        }
-    }
-
-    #endregion
 
     #region 工具函数
 

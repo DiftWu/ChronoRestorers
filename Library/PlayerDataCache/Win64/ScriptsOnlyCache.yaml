@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - Sensor_HeroKnight
     - SetActive
     - Souk
+    - Speech
     - Tent
     - Transition
     - VoiceInput
@@ -197,6 +198,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1802}
     - Class: 114
+      Script: {instanceID: 2004}
+    - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
       Script: {instanceID: 2374}
@@ -298,6 +301,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2374}
     - Class: 114
+      Script: {instanceID: 2562}
+    - Class: 114
       Script: {instanceID: 2590}
     - Class: 114
       Script: {instanceID: 2968}
@@ -307,6 +312,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3212}
     - Class: 114
       Script: {instanceID: 3464}
+    - Class: 114
+      Script: {instanceID: 3542}
     - Class: 114
       Script: {instanceID: 3592}
     - Class: 114
@@ -370,6 +377,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1654}
     - Class: 114
       Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 2004}
     - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
@@ -466,6 +475,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1802}
     - Class: 114
+      Script: {instanceID: 2004}
+    - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
       Script: {instanceID: 2374}
@@ -557,6 +568,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1654}
     - Class: 114
+      Script: {instanceID: 2004}
+    - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
       Script: {instanceID: 2374}
@@ -645,6 +658,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1654}
     - Class: 114
       Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 2004}
     - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
@@ -745,6 +760,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1802}
     - Class: 114
+      Script: {instanceID: 2004}
+    - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
       Script: {instanceID: 2374}
@@ -837,6 +854,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1654}
     - Class: 114
       Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 2004}
     - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
@@ -934,6 +953,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1724}
     - Class: 114
       Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 2004}
     - Class: 114
       Script: {instanceID: 2160}
     - Class: 114
@@ -1650,7 +1671,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 964a6eadfea88e109d345026eb78e27c
+      Hash: 2076ff07b806b25f6b7490d6d8ea3239
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DataManager
@@ -1907,4 +1928,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Chapter Two/Souk.unity
   - Assets/Scenes/Chapter Two/Tent.unity
   - Assets/Scenes/Chapter Two/Raining.unity
-  playerPath: "C:/WORK/ChronoRestorers/exe/\u65B0\u5EFA\u6587\u4EF6\u5939/ChronoRestorers.exe"
+  playerPath: C:/WORK/ChronoRestorers/exe/Multimodality/ChronoRestorers.exe

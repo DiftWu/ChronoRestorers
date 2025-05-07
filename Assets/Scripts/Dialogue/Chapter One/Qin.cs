@@ -24,6 +24,8 @@ public class Qin : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("isFirst after scene switch: " + PlayerPrefs.GetInt("isFirst"));
+
         Final.SetActive(false);
         NextChapter.SetActive(false);
         if (PlayerPrefs.HasKey("isFirst"))
@@ -34,7 +36,9 @@ public class Qin : MonoBehaviour
         {
             isfirst = 0;
             PlayerPrefs.SetInt("isFirst", 0);
+            PlayerPrefs.Save();
         }
+        Debug.Log("isFirst: " + PlayerPrefs.GetInt("isFirst"));
 
     }
 
@@ -70,36 +74,7 @@ public class Qin : MonoBehaviour
 
     private void Awake()
     {
-        var dialogTexts0 = new List<DialogData>();
-        dialogTexts0.Add(new DialogData("接下来，我将为你介绍游戏的基本功能和玩法", "神秘人"));
-        dialogTexts0.Add(new DialogData("首先，游戏的基本形式是通过对话获取知识", "神秘人", () => Show_Example(0)));
-        dialogTexts0.Add(new DialogData("你需要在场景里找到相关的人物或者物件，触发对话或小游戏", "神秘人", () => Hide_Example(0)));
-        dialogTexts0.Add(new DialogData("对话或者游戏过程中，你需要仔细阅读对话，获得相应的知识", "神秘人"));
-        dialogTexts0.Add(new DialogData("在了解知识的时候，如果你觉得某些知识点十分重要，你可以打开笔记本记录下重要的知识", "神秘人", () => Show_Example(1)));
-        dialogTexts0.Add(new DialogData("点击史官按钮，你将有三个选项，分别是智能史官、知识回顾以及笔记本", "神秘人", () => Hide_Example(1)));
-        dialogTexts0.Add(new DialogData("点击笔记本，你可以将你觉得重要的知识记录在笔记本中，以便随时查看", "神秘人", () => Show_Example(2)));
-        dialogTexts0.Add(new DialogData("你可以在输入框输入知识点，也可以点击话筒，通过语音输入相应的知识点，这样有助于你更好地记忆知识内容", "神秘人", () => Hide_Example(2)));
-        dialogTexts0.Add(new DialogData("此外，你可以在任意界面点击键盘上的N键来打开笔记本", "神秘人", () => Show_Example(3)));
-        dialogTexts0.Add(new DialogData("除了笔记本功能，还有智能史官功能，你可以向它询问任何有关的历史问题，它一定会给你一个满意的回答", "神秘人", () => Hide_Example(3)));
-        dialogTexts0.Add(new DialogData("最后，如果你想检验自己对于知识点的掌握情况或者想要巩固自己的知识，知识回顾是一个很好的选择", "神秘人", () => Show_Example(4)));
-        dialogTexts0.Add(new DialogData("它包含着这一整章的知识点，并且每次将随机给出题目，帮助你更好地了解自己对于知识的掌握情况", "神秘人", () => Hide_Example(4)));
-        dialogTexts0.Add(new DialogData("接下来，请尽情享受你的游戏吧，但永远不要忘记你的使命——获取更多的知识，将历史推向它本该前进的方向！", "神秘人"));
-
-        var dialogTexts0_en = new List<DialogData>();
-        dialogTexts0_en.Add(new DialogData("Next, I will introduce you to the basic functions and gameplay of the game", "Mysterious Person"));
-        dialogTexts0_en.Add(new DialogData("First, the basic form of the game is to acquire knowledge through dialogue", "Mysterious Person", () => Show_Example(0)));
-        dialogTexts0_en.Add(new DialogData("You need to find relevant characters or objects in the scene to trigger dialogues or mini-games", "Mysterious Person", () => Hide_Example(0)));
-        dialogTexts0_en.Add(new DialogData("During dialogues or games, you need to read carefully to gain corresponding knowledge", "Mysterious Person"));
-        dialogTexts0_en.Add(new DialogData("While learning, if you find certain knowledge points particularly important, you can open the notebook to record them", "Mysterious Person", () => Show_Example(1)));
-        dialogTexts0_en.Add(new DialogData("Click the Historian button, and you'll have three options: Smart Historian, Knowledge Review, and Notebook", "Mysterious Person", () => Hide_Example(1)));
-        dialogTexts0_en.Add(new DialogData("Click the notebook to record important knowledge points for future reference", "Mysterious Person", () => Show_Example(2)));
-        dialogTexts0_en.Add(new DialogData("You can type in the input box or click the microphone to input via voice, which helps you better memorize the content", "Mysterious Person", () => Hide_Example(2)));
-        dialogTexts0_en.Add(new DialogData("Additionally, you can press the N key on your keyboard to open the notebook from any interface", "Mysterious Person", () => Show_Example(3)));
-        dialogTexts0_en.Add(new DialogData("Besides the notebook, there's the Smart Historian feature where you can ask any historical questions and get satisfactory answers", "Mysterious Person", () => Hide_Example(3)));
-        dialogTexts0_en.Add(new DialogData("Finally, if you want to test your knowledge or reinforce what you've learned, the Knowledge Review is a great option", "Mysterious Person", () => Show_Example(4)));
-        dialogTexts0_en.Add(new DialogData("It contains all the knowledge points of this chapter and randomly generates questions to help you assess your understanding", "Mysterious Person", () => Hide_Example(4)));
-        dialogTexts0_en.Add(new DialogData("Now, enjoy your game, but never forget your mission - to acquire more knowledge and push history in the direction it should go!", "Mysterious Person"));
-
+        
         var dialogTexts1 = new List<DialogData>();
         dialogTexts1.Add(new DialogData("秦宫大殿高耸巍峨，装饰奢华。秦始皇的威严笼罩整个殿堂。大臣们列队而立，气氛肃穆。小红和小蓝悄然穿越于此，隐于大臣之间，聆听关于治理国家的争论。", "场景", () => Show_Example(5)));
         dialogTexts1.Add(new DialogData("（在小红和小蓝身后悄然现身，轻声说道）秦王嬴政，数十载谋划，终于一统天下。自二十五年起，他先灭韩，开战国之首，接着挥师东进，破赵于长平，击魏于大梁，强齐弱楚皆被陛下逐一瓦解。/color:yellow/六国皆望风而降，华夏终于一统。/color:white//size:init/此番议论非同小可，任何细微之失皆可动摇整个王朝的根基，务必仔细聆听。", "神秘人", () => Hide_Example(5)));
@@ -274,15 +249,14 @@ public class Qin : MonoBehaviour
         dialogQuestions_en.Add(text4_en);
         dialogQuestions_en.Add(new DialogData("What strategies strengthen border expansion—south and north?", "Guard"));
         dialogQuestions_en.Add(text5_en);
-        dialogQuestions_en.Add(new DialogData("(Steps forward calmly) Your Majesty, after discussion: you'll be called 'First Emperor', establishing Three Dukes/Nine Ministers and commandery-county systems, unifying writing/measures/axles. This will stabilize Qin's foundation.", "Xiao Hong"));
+        dialogQuestions_en.Add(new DialogData("(Steps forward calmly) Your Majesty, after discussion: you'll be called 'First Emperor', establishing Three Dukes,Nine Ministers and commandery-county systems, unifying writing,measures,axles. This will stabilize Qin's foundation.", "Xiao Hong"));
         dialogQuestions_en.Add(new DialogData("Qin's centralized system concentrated all state power in the central government, establishing a framework influencing later political systems.", "Mysterious Man"));
         dialogQuestions_en.Add(new DialogData("(Pausing in silence, then smiling with satisfaction) Very well, your strategy deeply pleases me. Thus, the world can be at peace!", "Ying Zheng")); 
 
 
         if (isfirst == 0)
         {
-            DialogManager.Show(dialogTexts0);
-            PlayerPrefs.SetInt("isFirst", 1);
+            StartCoroutine(ShowDialogAfterSave());
         }
 
         if (isActive1)
@@ -326,6 +300,45 @@ public class Qin : MonoBehaviour
             isActive5 = false;
             NextChapter.SetActive(true);
         }
+    }
+
+    private IEnumerator ShowDialogAfterSave()
+    {
+        var dialogTexts0 = new List<DialogData>();
+        dialogTexts0.Add(new DialogData("接下来，我将为你介绍游戏的基本功能和玩法", "神秘人"));
+        dialogTexts0.Add(new DialogData("首先，游戏的基本形式是通过对话获取知识", "神秘人", () => Show_Example(0)));
+        dialogTexts0.Add(new DialogData("你需要在场景里找到相关的人物或者物件，触发对话或小游戏", "神秘人", () => Hide_Example(0)));
+        dialogTexts0.Add(new DialogData("对话或者游戏过程中，你需要仔细阅读对话，获得相应的知识", "神秘人"));
+        dialogTexts0.Add(new DialogData("在了解知识的时候，如果你觉得某些知识点十分重要，你可以打开笔记本记录下重要的知识", "神秘人", () => Show_Example(1)));
+        dialogTexts0.Add(new DialogData("点击史官按钮，你将有三个选项，分别是智能史官、知识回顾以及笔记本", "神秘人", () => Hide_Example(1)));
+        dialogTexts0.Add(new DialogData("点击笔记本，你可以将你觉得重要的知识记录在笔记本中，以便随时查看", "神秘人", () => Show_Example(2)));
+        dialogTexts0.Add(new DialogData("你可以在输入框输入知识点，也可以点击话筒，通过语音输入相应的知识点，这样有助于你更好地记忆知识内容", "神秘人", () => Hide_Example(2)));
+        dialogTexts0.Add(new DialogData("此外，你可以在任意界面点击键盘上的N键来打开笔记本", "神秘人", () => Show_Example(3)));
+        dialogTexts0.Add(new DialogData("除了笔记本功能，还有智能史官功能，你可以向它询问任何有关的历史问题，它一定会给你一个满意的回答", "神秘人", () => Hide_Example(3)));
+        dialogTexts0.Add(new DialogData("最后，如果你想检验自己对于知识点的掌握情况或者想要巩固自己的知识，知识回顾是一个很好的选择", "神秘人", () => Show_Example(4)));
+        dialogTexts0.Add(new DialogData("它包含着这一整章的知识点，并且每次将随机给出题目，帮助你更好地了解自己对于知识的掌握情况", "神秘人", () => Hide_Example(4)));
+        dialogTexts0.Add(new DialogData("接下来，请尽情享受你的游戏吧，但永远不要忘记你的使命——获取更多的知识，将历史推向它本该前进的方向！", "神秘人"));
+
+        var dialogTexts0_en = new List<DialogData>();
+        dialogTexts0_en.Add(new DialogData("Next, I will introduce you to the basic functions and gameplay of the game", "Mysterious Person"));
+        dialogTexts0_en.Add(new DialogData("First, the basic form of the game is to acquire knowledge through dialogue", "Mysterious Person", () => Show_Example(0)));
+        dialogTexts0_en.Add(new DialogData("You need to find relevant characters or objects in the scene to trigger dialogues or mini-games", "Mysterious Person", () => Hide_Example(0)));
+        dialogTexts0_en.Add(new DialogData("During dialogues or games, you need to read carefully to gain corresponding knowledge", "Mysterious Person"));
+        dialogTexts0_en.Add(new DialogData("While learning, if you find certain knowledge points particularly important, you can open the notebook to record them", "Mysterious Person", () => Show_Example(1)));
+        dialogTexts0_en.Add(new DialogData("Click the Historian button, and you'll have three options: Smart Historian, Knowledge Review, and Notebook", "Mysterious Person", () => Hide_Example(1)));
+        dialogTexts0_en.Add(new DialogData("Click the notebook to record important knowledge points for future reference", "Mysterious Person", () => Show_Example(2)));
+        dialogTexts0_en.Add(new DialogData("You can type in the input box or click the microphone to input via voice, which helps you better memorize the content", "Mysterious Person", () => Hide_Example(2)));
+        dialogTexts0_en.Add(new DialogData("Additionally, you can press the N key on your keyboard to open the notebook from any interface", "Mysterious Person", () => Show_Example(3)));
+        dialogTexts0_en.Add(new DialogData("Besides the notebook, there's the Smart Historian feature where you can ask any historical questions and get satisfactory answers", "Mysterious Person", () => Hide_Example(3)));
+        dialogTexts0_en.Add(new DialogData("Finally, if you want to test your knowledge or reinforce what you've learned, the Knowledge Review is a great option", "Mysterious Person", () => Show_Example(4)));
+        dialogTexts0_en.Add(new DialogData("It contains all the knowledge points of this chapter and randomly generates questions to help you assess your understanding", "Mysterious Person", () => Hide_Example(4)));
+        dialogTexts0_en.Add(new DialogData("Now, enjoy your game, but never forget your mission - to acquire more knowledge and push history in the direction it should go!", "Mysterious Person"));
+
+        yield return null; // 等待一帧，确保 PlayerPrefs 保存已生效
+        DialogManager.Show(dialogTexts0);
+        PlayerPrefs.SetInt("isFirst", 1);
+        PlayerPrefs.Save();
+        Debug.Log("isFirst updated: " + PlayerPrefs.GetInt("isFirst"));
     }
 
     private void Show_Example(int index)

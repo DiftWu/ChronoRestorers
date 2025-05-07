@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 4363359287012469622, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2665071275088589277}
+      objectReference: {fileID: 6190429199140851143}
     - target: {fileID: 4363359287012469622, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnButtonClick
@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5500182170175855452, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000022888184
+      value: 0.0000054836273
       objectReference: {fileID: 0}
     - target: {fileID: 5500182170175855453, guid: 8f4f19d36cc38b04c88310230779d621, type: 3}
       propertyPath: m_Layer
@@ -648,7 +648,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2665071275088589277
+--- !u!114 &6190429199140851143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

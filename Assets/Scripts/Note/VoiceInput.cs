@@ -294,6 +294,8 @@ public class VoiceInput : MonoBehaviour
     /// <returns></returns>
     private string TTSParseMessage(string message, out int status)
     {
+        Debug.Log("Raw JSON response: " + message);
+
         JObject jObject = JObject.Parse(message);
         if (jObject["message"].ToString() == "success")
         {

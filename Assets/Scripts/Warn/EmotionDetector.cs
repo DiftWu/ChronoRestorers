@@ -100,6 +100,7 @@ public class EmotionDetector : MonoBehaviour
                     isMindWandering = true;
                     ShowMindWanderingWarning();
                 }
+                isMindWandering = false; // 重置状态
             }
         }
     }
