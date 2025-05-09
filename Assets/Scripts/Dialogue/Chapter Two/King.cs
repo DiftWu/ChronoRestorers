@@ -34,7 +34,14 @@ public class King : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Speaking gravely) These manifestos are crucial - they must announce Qin's tyranny to the world and awaken the oppressed masses, uniting all hearts to overthrow the brutal Qin. Go quickly to investigate people's conditions and report everything you witness.", "Chen Sheng"));
         dialogTexts_en.Add(new DialogData("Xiao Hong and Xiao Lan accepted their orders and immediately left Chen County, heading toward nearby villages and farmlands.", "Scene"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
 
     }
 

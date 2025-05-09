@@ -32,7 +32,14 @@ public class Raining : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Passionately agreeing) Exactly! Overthrow Qin's tyranny, save our people!", "Soldier B"));
         dialogTexts_en.Add(new DialogData("(The crowd's fervor erupts in thunderous agreement. Chen Sheng and Wu Guang's words ignite the soldiers' fury. Their rebellion succeeds in the rain, and the flames of revolution kindle in Daze Village.)", "Narrator"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
 
     }
 

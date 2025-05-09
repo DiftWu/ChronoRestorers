@@ -133,7 +133,14 @@ public class Tent : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Adding more fervently) Now heaven's mandate has shifted, popular resentment boils over! We raise our farming tools as weapons, lift poles as banners, and rebel against brutal Qin! We champion justice to destroy tyrannical Qin! Let all who share our cause raise righteous banners to overthrow cruel Qin! A true man dies but once - let our deaths bring glory! The people make me their king - the Zhang Chu regime is born! All who refuse to kneel to oppression, join us in Zhang Chu to fight for justice!", "Chen Sheng"));
         dialogTexts_en.Add(new DialogData("(Chanting in unison, voices strong with determination) We'll cut wood for weapons, raise poles as banners, and fight Qin to the death!", "Soldiers"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
         isActive = false;
     }
 
@@ -150,9 +157,16 @@ public class Tent : MonoBehaviour
             var dialogTexts_en = new List<DialogData>();
 
             dialogTexts.Add(new DialogData("(赞许地说道) 不错！赋税沉重，徭役连年，百姓不堪重负，这才是引发民怨沸腾的根源！", "陈胜"));
-            dialogTexts.Add(new DialogData("(Praising) Correct! Heavy taxes and endless corvée labor crushed the people - this is why resentment boils over!", "Chen Sheng"));
+            dialogTexts_en.Add(new DialogData("(Praising) Correct! Heavy taxes and endless corvée labor crushed the people - this is why resentment boils over!", "Chen Sheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
         else if (DialogManager.Result == "Wrong")
         {
@@ -162,7 +176,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(摇头，语气中带着愤懑) 赋税沉重、徭役繁多，哪里有民众安逸的日子？秦朝的压迫让百姓苦不堪言！", "吴广"));
             dialogTexts_en.Add(new DialogData("(Shaking head angrily) Where was this comfort you speak of? Qin's oppression left people destitute!", "Wu Guang"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
     }
 
@@ -176,7 +197,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(点头肯定，语气愤怒) 对，秦朝的苛法让百姓如履薄冰，稍有过失，亲族邻里都要受到牵连，生死一线。", "陈胜"));
             dialogTexts_en.Add(new DialogData("(Nodding grimly) Yes! Qin's laws made people walk on thin ice - one misstep implicated entire families!", "Chen Sheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
         else if (DialogManager.Result == "Wrong")
         {
@@ -186,7 +214,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(皱眉，神情严肃) 不只是个别人的惩罚，秦法无情，亲属和邻里皆要陪葬。这样的暴政，怎能不让天下百姓反抗？", "吴广"));
             dialogTexts_en.Add(new DialogData("(Frowning seriously) It's not just individual punishment - Qin's laws are merciless, implicating entire families. How can such tyranny not provoke rebellion?", "Wu Guang"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
     }
 
@@ -200,7 +235,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(重重地点头) 没错！秦朝施行的刑罚残酷至极，百姓无一能幸免，这样的暴政必会引发天下反抗！", "陈胜"));
             dialogTexts_en.Add(new DialogData("(Nodding heavily) Exactly! The punishments of Qin are extremely cruel, with no one escaping - such tyranny will surely provoke rebellion!", "Chen Sheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
         else if (DialogManager.Result == "Wrong")
         {
@@ -210,7 +252,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(摇头叹息) 流放和剥夺财产？那只是表面。秦朝的刑罚残酷至极，肢体残害，百姓的生命宛如草芥，秦政苛暴，怎不引来民众起义！", "吴广"));
             dialogTexts_en.Add(new DialogData("(Shaking head) Exile and property confiscation? That's just the surface. Qin's punishments are extremely cruel - the people's lives are like grass, and such tyranny will surely provoke rebellion!", "Wu Guang"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
     }
 
@@ -224,7 +273,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(眼中闪烁愤怒之色) 正是焚书坑儒！秦始皇不仅用刑罚镇压百姓，还用思想禁锢，焚毁书籍，杀害儒生，彻底封锁百姓的心智。", "陈胜"));
             dialogTexts_en.Add(new DialogData("(Eyes flashing with anger) Exactly! Burning books and burying scholars! Qin Shi Huang not only used punishment to suppress the people but also imprisoned thought, burning books and killing scholars to completely seal the people's minds.", "Chen Sheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
         else if (DialogManager.Result == "Wrong")
         {
@@ -234,7 +290,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(语气冷峻) 如此残酷手段，让百姓不敢言不敢问，思想被禁锢，学者被杀，这便是秦朝暴政的其中一环。", "吴广"));
             dialogTexts_en.Add(new DialogData("(Coldly) Such cruel methods made the people afraid to speak or ask, their thoughts shackled, and scholars killed - this is one aspect of Qin's tyranny.", "Wu Guang"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
     }
 
@@ -248,7 +311,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(声音低沉而冷静) 秦二世凶残暴虐，征调百姓为咸阳筑城，还加征粮饷，使百姓生活更加艰难。", "陈胜"));
             dialogTexts_en.Add(new DialogData("(Voice low and calm) Qin Ershi is cruel and tyrannical, conscripting people to build Xianyang and increasing grain levies, making life even harder for the people.", "Chen Sheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
         else if (DialogManager.Result == "Wrong")
         {
@@ -258,7 +328,14 @@ public class Tent : MonoBehaviour
             dialogTexts.Add(new DialogData("(愤怒地摇头) 不是长安，也不是洛阳。秦二世的暴政体现在咸阳的庞大工程上，百姓被强迫为他营建，生死皆掌控在暴政之手。", "吴广"));
             dialogTexts_en.Add(new DialogData("(Angrily) Not Chang'an! Qin Ershi's projects in Xianyang enslaved thousands!", "Wu Guang"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
         }
     }
 }

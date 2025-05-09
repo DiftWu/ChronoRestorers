@@ -16,7 +16,7 @@ public class VoiceInput : MonoBehaviour
     private const string STTURL = "wss://iat-api.xfyun.cn/v2/iat";
     private const string TTSURL = "wss://tts-api.xfyun.cn/v2/tts";
     private const string APPID = "d75296e3";
-    private const string APISecret = "ODljYzU3YzgyYmNjZDA1YjFiMGNlZmRi";
+    private const string APISecret = "ODljYzU3YzgyYmNjZDA1YjFiMGNlZmRi"; 
     private const string APIKey = "98f60de36371ea80002053e0644598f7";
 
     private ClientWebSocket webSocket;

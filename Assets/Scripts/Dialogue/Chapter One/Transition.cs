@@ -28,7 +28,14 @@ public class Transition : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Smiling coldly) Time will tell everything. Speak with the ministers, gather their opinions, and find the correct path in history.", "Mysterious Figure"));
         dialogTexts_en.Add(new DialogData("(Looking firmly at Xiao Lan) We have to try.", "Xiao Hong", () => Show_Example(1)));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
     }
 
     private void Show_Example(int index)

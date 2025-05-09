@@ -24,7 +24,14 @@ public class Souk : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Nervously glancing around, whispering) Need you ask? The 'Burning of Books and Burying of Scholars'! The First Emperor burned all non-Qin books and executed Confucian scholars and alchemists. Our minds have been shackled - who dares speak freely now?", "Villager B"));
         dialogTexts_en.Add(new DialogData("(Sighing with resignation) In these times, even the slightest criticism is forbidden. A wise man's comment becomes a capital offense, leaving the people silent as cicadas in winter. How can such tyranny endure?", "Villager A"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
 
     }
 

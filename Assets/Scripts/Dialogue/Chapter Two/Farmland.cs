@@ -36,7 +36,14 @@ public class Farmland : MonoBehaviour
         dialogTexts_en.Add(new DialogData("You there! What are you doing? Submit for inspection!", "Soldier"));
         dialogTexts_en.Add(new DialogData("Hey, you'd better leave quickly. Escape through the wheat field.", "Farmer A"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
 
     }
 

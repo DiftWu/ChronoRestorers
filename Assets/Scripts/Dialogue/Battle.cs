@@ -21,8 +21,15 @@ public class Battle : MonoBehaviour
 
         dialogTexts_en.Add(new DialogData("While exploring, you may be discovered by hidden monsters and pulled into a strange space.", "Mystery Man"));
         dialogTexts_en.Add(new DialogData("Defeat the monsters in battle or solve the puzzles as instructed to proceed.", "Mystery Man"));
-        DialogManager.Show(dialogTexts);
 
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
     }
 
     private void Show_Example(int index)

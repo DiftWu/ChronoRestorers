@@ -261,42 +261,86 @@ public class Qin : MonoBehaviour
 
         if (isActive1)
         {
-            DialogManager.Show(dialogTexts1);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts1_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts1);
+            }
             isActive1 = false;
             beenActive1 = true;
         }
 
         if (isActive2)
         {
-            DialogManager.Show(dialogTexts2);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts2_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts2);
+            }
             isActive2 = false;
             beenActive2 = true;
         }
 
         if (isActive3)
         {
-            DialogManager.Show(dialogTexts3);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts3_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts3);
+            }
             isActive3 = false;
             beenActive3 = true;
         }
 
         if (isActive4)
         {
-            DialogManager.Show(dialogTexts4);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts4_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts4);
+            }
+
             isActive4 = false;
             beenActive4 = true;
         }
 
         if (beenActive1 && beenActive2 && beenActive3 && beenActive4 && !beenActive5)
         {
-            DialogManager.Show(dialogTexts5);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts5_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts5);
+            }
             Final.SetActive(true);
             beenActive5 = true;
         }
 
         if (isActive5)
         {
-            DialogManager.Show(dialogQuestions);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogQuestions_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogQuestions);
+            }
+
             isActive5 = false;
             NextChapter.SetActive(true);
         }
@@ -335,7 +379,14 @@ public class Qin : MonoBehaviour
         dialogTexts0_en.Add(new DialogData("Now, enjoy your game, but never forget your mission - to acquire more knowledge and push history in the direction it should go!", "Mysterious Person"));
 
         yield return null; // 等待一帧，确保 PlayerPrefs 保存已生效
-        DialogManager.Show(dialogTexts0);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts0_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts0);
+        }
         PlayerPrefs.SetInt("isFirst", 1);
         PlayerPrefs.Save();
         Debug.Log("isFirst updated: " + PlayerPrefs.GetInt("isFirst"));
@@ -356,24 +407,38 @@ public class Qin : MonoBehaviour
         if (DialogManager.Result == "Correct")
         {
             var dialogTexts = new List<DialogData>();
-            var dialogTexts_en=new List<DialogData>();
+            var dialogTexts_en = new List<DialogData>();
 
             dialogTexts.Add(new DialogData("（微微一笑）朕便从今日起称为‘皇帝’，以示天命在我！", "嬴政"));
             dialogTexts_en.Add(new DialogData("(Slight smile) From today, I shall be called 'Emperor', to show that the mandate of heaven is with me!", "Ying Zheng"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneRight++;
         }
         else if (DialogManager.Result == "Wrong")
         {
             var dialogTexts = new List<DialogData>();
-            var dialogTexts_en=new List<DialogData>();
+            var dialogTexts_en = new List<DialogData>();
 
             dialogTexts.Add(new DialogData("（拔剑攻击）用此称呼，岂不贬低陛下之功？", "卫兵"));
             dialogTexts_en.Add(new DialogData("(Drawing sword) Using this title would belittle Your Majesty's achievements!", "Guard"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneFalse++;
         }
@@ -392,7 +457,14 @@ public class Qin : MonoBehaviour
             dialogTexts_en.Add(new DialogData("(Nodding slightly) Good. We will follow this strategy, establishing Three Dukes and Nine Ministers, with clear division of labor in court affairs, but ultimate power remains with me. You must all keep your positions and not harbor any treachery.", "Ying Zheng"));
             dialogTexts_en.Add(new DialogData("(Bowing solemnly) Your Majesty is wise. I am willing to follow Your Majesty's strategy and do my utmost to implement this system.", "All Ministers"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneRight++;
         }
@@ -404,7 +476,14 @@ public class Qin : MonoBehaviour
             dialogTexts.Add(new DialogData("（拔剑攻击）大人胆敢言及前朝旧制，莫不是对陛下不敬？", "卫兵"));
             dialogTexts_en.Add(new DialogData("(Drawing sword) How dare you mention the old system of the previous dynasty? Is this disrespect to Your Majesty?", "Guard"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneFalse++;
         }
@@ -421,7 +500,14 @@ public class Qin : MonoBehaviour
 
             dialogTexts_en.Add(new DialogData("(Showing satisfaction) Local affairs are under the central authority. You must remember, the world is settled, but without regulations, the state will be in danger. The commandery-county system is the foundation of national stability; you must implement it with all your strength!", "Ying Zheng"));
             dialogTexts_en.Add(new DialogData("(whispers softly) Historically, the Qin Dynasty increased the number of counties to more than 40. The widespread implementation of the county system has created the basic model of local administration in successive dynasties in China.", "Mystery Man"));
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneRight++;
         }
@@ -433,7 +519,14 @@ public class Qin : MonoBehaviour
             dialogTexts.Add(new DialogData("（拔剑攻击）大人对郡县制的施行尚不甚熟悉，如何为国之运行贡献助力？", "卫兵"));
             dialogTexts_en.Add(new DialogData("(Drawing sword) You are not familiar with the implementation of the commandery-county system. How can you contribute to the operation of the country?", "Guard"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneFalse++;
         }
@@ -451,7 +544,14 @@ public class Qin : MonoBehaviour
 
             dialogTexts_en.Add(new DialogData("(Eyes piercing) Hmm... Unifying writing, axle widths, currency, and weights and measures will truly unify the world. Your suggestion is insightful. Order it down, commanding Prime Minister Li Si to take the large seal script, organize and simplify it, and establish the small seal script as the national standard.", "Ying Zheng"));
             dialogTexts_en.Add(new DialogData("(whispers softly) The unification of the written language enables the decree to be carried out smoothly throughout the country, and also enables people in different regions to communicate smoothly, which is conducive to cultural exchange and development. The unification of the currency has changed the chaotic situation of the currency system in the past, is conducive to the state's management of the economy, and promotes economic exchanges in various localities. Since the Qin Dynasty, the currency form of the round square hole has been used by successive dynasties. The unification of weights and measures has promoted economic development. Qin Shi Huang ordered the unification of the width of the tracks and roads, and the construction of roads that ran through the whole country, forming a national transportation network centered on Xianyang.", "Mystery Man"));
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneRight++;
         }
@@ -463,7 +563,14 @@ public class Qin : MonoBehaviour
             dialogTexts.Add(new DialogData("（拔剑攻击）大人所言未遵我大秦之制，恐有违陛下威命，实在令人费解。", "卫兵"));
             dialogTexts_en.Add(new DialogData("(Drawing sword) What you said does not follow the system of our Qin Dynasty, which may violate Your Majesty's command. It is really puzzling.", "Guard"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneFalse++;
         }
@@ -481,7 +588,14 @@ public class Qin : MonoBehaviour
             dialogTexts_en.Add(new DialogData("(Cold gaze, authoritative tone) Good! General Meng Tian has led the army to the north to attack the Xiongnu. Now we must build the Great Wall to protect the northern frontier. The foundation of our Qin Dynasty is stable, and we can conquer south and defend north without worry.", "Ying Zheng"));
             dialogTexts_en.Add(new DialogData("(Bowing deeply, tone filled with admiration and loyalty) Your Majesty is wise. If we gain Lingnan, we can expand our territory; if the Great Wall is built, the north will be secure. We will do our utmost to help Your Majesty achieve this great cause!", "All Ministers"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneRight++;
         }
@@ -493,7 +607,14 @@ public class Qin : MonoBehaviour
             dialogTexts.Add(new DialogData("（拔剑攻击）大人竟对国之疆域尚不了解，此番策略恐误国！", "卫兵"));
             dialogTexts_en.Add(new DialogData("(Drawing sword) You are unaware of the country's territory. This strategy may harm the state!", "Guard"));
 
-            DialogManager.Show(dialogTexts);
+            if (DataManager.Instance.playerData.usingEnglish)
+            {
+                DialogManager.Show(dialogTexts_en);
+            }
+            else
+            {
+                DialogManager.Show(dialogTexts);
+            }
 
             DataManager.Instance.playerData.ChapterOneFalse++;
         }

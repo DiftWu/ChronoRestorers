@@ -24,7 +24,14 @@ public class Prison : MonoBehaviour
         dialogTexts_en.Add(new DialogData("(Lifting head weakly, bloodshot eyes full of sorrow) Sir... I was truly unable to pay the taxes, so I was sentenced here. My poor family... though innocent... was dragged into forced labor because of my crime... home destroyed, lives ruined... I... I deserve death, but not my family!", "Prisoner"));
         dialogTexts_en.Add(new DialogData("Xiao Lan lowered her head and sighed. Hearing of this unjust collective punishment, her heart darkened as she noted the harshness of Qin's laws.", "Scene"));
 
-        DialogManager.Show(dialogTexts);
+        if (DataManager.Instance.playerData.usingEnglish)
+        {
+            DialogManager.Show(dialogTexts_en);
+        }
+        else
+        {
+            DialogManager.Show(dialogTexts);
+        }
 
     }
 
