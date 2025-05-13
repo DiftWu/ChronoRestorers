@@ -104,6 +104,7 @@
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Resources\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\Warn\DrowsinessHandler.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Begin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\Face\Library\bin\msvcp140_atomic_wait.dll" />
@@ -1093,6 +1094,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AH_AssemblyDefinition.csproj">
+      <Project>{52D54988-8D61-F83F-ACFF-F7780043CAA5}</Project>
+      <Name>AH_AssemblyDefinition</Name>
+    </ProjectReference>
+    <ProjectReference Include="Heureka_GlobalAssemblyDefinition.csproj">
+      <Project>{81120C9E-13EA-DA09-9140-F3163AC925C9}</Project>
+      <Name>Heureka_GlobalAssemblyDefinition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

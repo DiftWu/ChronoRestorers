@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    AH_AssemblyDefinition.dll:
+    - HeurekaGames.AssetHunterPRO.AH_BuildInfoManager
+    - HeurekaGames.AssetHunterPRO.AH_EditorData
     Assembly-CSharp.dll:
     - BackgroundScaler
     - Battle
@@ -33,6 +36,12 @@ ScriptsOnlyBuild:
     - Tent
     - Transition
     - VoiceInput
+    Heureka_GlobalAssemblyDefinition.dll:
+    - HeurekaGames.Heureka_EditorData
+    - HeurekaGames.Heureka_PackageDataManager
+    - HeurekaGames.Heureka_PackageDataManagerEditor
+    - HeurekaGames.Heureka_PackageDataPromo
+    - HeurekaGames.Heureka_PackageDataVersioned
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -1928,4 +1937,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Chapter Two/Souk.unity
   - Assets/Scenes/Chapter Two/Tent.unity
   - Assets/Scenes/Chapter Two/Raining.unity
-  playerPath: C:/WORK/ChronoRestorers/exe/Multimodality/ChronoRestorers.exe
+  playerPath: C:/WORK/ChronoRestorers/exe/bulid/ChronoRestorers.exe

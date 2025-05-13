@@ -7,7 +7,6 @@
     <typeFullName>
       <string>AssetClean.AssetCollector</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>805140a4856714e288ea84985d3023df</guid>
@@ -16,7 +15,6 @@
     <typeFullName>
       <string>AssetReferenceCollection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
@@ -25,7 +23,6 @@
     <typeFullName>
       <string>AssetClean.ClassReferenceCollection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>0d05386265df34bac8d0b6df44aa494c</guid>
@@ -36,7 +33,6 @@
       <string>TypeDate</string>
       <string>IReferenceCollection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>74eec3bfba0594259ac2843353c082a3</guid>
@@ -45,7 +41,6 @@
     <typeFullName>
       <string>AssetClean.FindUnusedAssetsWindow</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
@@ -54,7 +49,6 @@
     <typeFullName>
       <string>AssetClean.ShaderReferenceCollection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>af59b715d564ae9488e8438d6860bc3b</guid>
@@ -63,7 +57,6 @@
     <typeFullName>
       <string>TestMessage</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>003f87aaac6bafa419ef75888f070867</guid>
@@ -72,7 +65,6 @@
     <typeFullName>
       <string>TestMessage_Selection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>2255e66b58bcfa24f9911b3ed2d2488f</guid>
@@ -81,7 +73,6 @@
     <typeFullName>
       <string>Doublsb.Dialog.Character</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>740b4ccb2f717d04bba084f1e270d961</guid>
@@ -98,7 +89,6 @@
       <string>Doublsb.Dialog.DialogSelect</string>
       <string>Doublsb.Dialog.DialogSelectItem</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>07f3da1b4b00cd542a74d707c719f823</guid>
@@ -107,7 +97,6 @@
     <typeFullName>
       <string>Doublsb.Dialog.DialogManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>029bcc74c71908c49883ffeb7e05f4f9</guid>
@@ -116,7 +105,6 @@
     <typeFullName>
       <string>Doublsb.Dialog.EmotionDrawer</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>4e3fab4f60695b14c9a85e1b2c51ecaf</guid>
@@ -125,7 +113,6 @@
     <typeFullName>
       <string>ColorSwap_HeroKnight</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>52753f3b24fd0e84d8e6d8c3155daed4</guid>
@@ -134,7 +121,6 @@
     <typeFullName>
       <string>DestroyEvent_HeroKnight</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>0f5034bc83802944c9bca57c55e08978</guid>
@@ -143,7 +129,6 @@
     <typeFullName>
       <string>HeroKnight</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>2f2a8bdc7f41b704693ad497097f30dc</guid>
@@ -152,7 +137,6 @@
     <typeFullName>
       <string>Sensor_HeroKnight</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>9a3e5f51e31f79c4fb340e92ffc286e8</guid>
@@ -161,7 +145,6 @@
     <typeFullName>
       <string>LookCamera</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>928d7d304f77bdf4f85c8468b39d6f36</guid>
@@ -170,7 +153,6 @@
     <typeFullName>
       <string>BackgroundScaler</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>51c5bb5a3b1751d43bb0bb586ade8645</guid>
@@ -179,7 +161,6 @@
     <typeFullName>
       <string>CameraCapture</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>5236dd295508c264b8db03c562f0149c</guid>
@@ -188,7 +169,6 @@
     <typeFullName>
       <string>Esc</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>5a1014370640c814d9a0d2b2061bd563</guid>
@@ -197,7 +177,6 @@
     <typeFullName>
       <string>HistorianSystem</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>e05a5e04635a1bc4a9b6c5976f0f824f</guid>
@@ -206,7 +185,6 @@
     <typeFullName>
       <string>QuestionAI</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>4f2deafde5d203a45aaa2c4224aa74d4</guid>
@@ -215,7 +193,6 @@
     <typeFullName>
       <string>SceneSwitcher</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>7ec50b146e366254dbd1340697d78ac7</guid>
@@ -224,7 +201,6 @@
     <typeFullName>
       <string>SetActive</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>6e416dddb68f0c34c838f933dbf49f7c</guid>
@@ -233,7 +209,6 @@
     <typeFullName>
       <string>Show_Dialog</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>91ad18b5e0c36054d88d0fd9b251fad0</guid>
@@ -242,7 +217,6 @@
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>9ec9eee478d59c348ada25b1e58cc7fc</guid>
@@ -251,7 +225,6 @@
     <typeFullName>
       <string>FollowPlayer</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>7d6820911f142224c8933adaf65ba033</guid>
@@ -260,7 +233,6 @@
     <typeFullName>
       <string>Player</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>513a7146f818aa94ebf313484a0f9434</guid>
@@ -269,7 +241,6 @@
     <typeFullName>
       <string>Battle</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>5d6841f390317e741a1f6343f9ce854a</guid>
@@ -278,7 +249,6 @@
     <typeFullName>
       <string>Qin</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>313a8eda8a7b2fd47a6188ef672a125f</guid>
@@ -287,7 +257,6 @@
     <typeFullName>
       <string>Transition</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>f680d0bf7abd05c44a62fbc7cd628bab</guid>
@@ -296,7 +265,6 @@
     <typeFullName>
       <string>Farmland</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>f6a440252f7e67840b8b87ffdc28e24f</guid>
@@ -305,7 +273,6 @@
     <typeFullName>
       <string>King</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>168ffcb3e34571542967ab1b210d9094</guid>
@@ -314,7 +281,6 @@
     <typeFullName>
       <string>Prison</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>f3af2a0bdfd8c7c4ba2bfbc871d590a0</guid>
@@ -323,7 +289,6 @@
     <typeFullName>
       <string>Raining</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>7e2c9d277c80b0040b3dd9e8bcebc622</guid>
@@ -332,7 +297,6 @@
     <typeFullName>
       <string>Souk</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>9a70cbf8e28578d46a199bb6f0d6c76f</guid>
@@ -341,7 +305,6 @@
     <typeFullName>
       <string>Tent</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>9e1c7f4ef28ffee40af82c588b97a982</guid>
@@ -350,7 +313,6 @@
     <typeFullName>
       <string>MazeGameManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>f92dbbd54ba76cc4f9b86de01b70c0e8</guid>
@@ -359,7 +321,6 @@
     <typeFullName>
       <string>MazeGenerator</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>5f7c7d4b4c3b4b7419841fb5ff36b2e9</guid>
@@ -368,7 +329,6 @@
     <typeFullName>
       <string>PlayerController</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>15b7f5dec30e54d4dad48d55e19fd748</guid>
@@ -379,7 +339,6 @@
       <string>NoteList</string>
       <string>NotebookManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>db1bd0bcb9cf6e34fa0f67450004c26a</guid>
@@ -388,7 +347,6 @@
     <typeFullName>
       <string>Speech</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>ba2a50e1c6604e14e8967948c5c3a71d</guid>
@@ -397,7 +355,6 @@
     <typeFullName>
       <string>VoiceInput</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>6dcdb4a571dfd98479c9c173880cb06e</guid>
@@ -406,7 +363,6 @@
     <typeFullName>
       <string>DataManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>420444d4b33171841952f9788b2087bf</guid>
@@ -415,7 +371,6 @@
     <typeFullName>
       <string>PlayerData</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>553c6a83b4ca2064db59d95fe650ea6a</guid>
@@ -424,7 +379,6 @@
     <typeFullName>
       <string>Question</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>bbcc968330f65fc419529d99bb8f5ea6</guid>
@@ -433,7 +387,6 @@
     <typeFullName>
       <string>QuestionBankLoader</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>eff94d72798122a4da394a9a154d2aee</guid>
@@ -442,7 +395,6 @@
     <typeFullName>
       <string>QuestionList</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>9989f16135312194c9c8d1b884ccd58a</guid>
@@ -451,7 +403,6 @@
     <typeFullName>
       <string>QuizManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>fc3a94324db69d44d9166f37a495cfba</guid>
@@ -460,7 +411,6 @@
     <typeFullName>
       <string>QuizUIManager</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>215e7020f4a33e24f919149999f5a659</guid>
@@ -469,7 +419,6 @@
     <typeFullName>
       <string>DrowsinessHandler</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>f45677d4886b1f24aaf19fc4a0f729d8</guid>
@@ -478,7 +427,6 @@
     <typeFullName>
       <string>EmotionDetection</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>7a83696973fc52242bf4642b802ab3f3</guid>
@@ -487,7 +435,6 @@
     <typeFullName>
       <string>EmotionDetector</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
   <TypeDate>
     <guid>5f30dac2bcee81e4c8d946311b78cad6</guid>
@@ -499,6 +446,41 @@
       <string>JsonNetSample+CharacterListItem</string>
       <string>JsonNetSample+Movie</string>
     </typeFullName>
-    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5dd1400f1b20cc7499c28521d6781b15</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7f3a28d21fa4eaf41b6681011b791eed</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6997d5bae6541de488ab06f6e11f6566</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>df53c497e44874742813ba2ef39ea35f</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ac93e42d78a7a7f4cb14893e250b9eaa</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d1a7453123c58b440b32b784429fa861</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T21:39:43+08:00</timeStamp>
+    <typeFullName />
   </TypeDate>
 </ArrayOfTypeDate>

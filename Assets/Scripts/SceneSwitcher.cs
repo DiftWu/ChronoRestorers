@@ -18,4 +18,15 @@ public class SceneSwitcher : MonoBehaviour
             Debug.LogWarning("未指定场景名称");
         }
     }
+
+    public void QuitGame()
+    {
+        // 在编辑器中无效，只在打包后的游戏中有效
+        Application.Quit();
+
+        // 编辑器中测试用
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+    }
 }
